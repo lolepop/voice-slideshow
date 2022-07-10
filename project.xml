@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="Voice Slideshow" package="" version="1.0.0" company="lolepopie" />
+    <app main="Main" file="start" path="build/openfl" />
+
+    <window background="#FFFFFF" fps="60" />
+    <window width="800" height="600" if="desktop" />
+    <window width="0" height="0" if="html5" />
+
+    <!-- classpath, haxe libs -->
+    <source path="src" />
+    <assets path="assets/fonts" rename="fonts" />
+
+    <haxelib name="openfl" />
+    <haxelib name="actuate" />
+
+    <haxelib name="haxeui-core" />
+    <haxelib name="haxeui-openfl" />
+    <haxelib name="encoding-sjis" />
+
+    <!-- <haxelib name="hxcpp-debug-server" /> -->
+</project>

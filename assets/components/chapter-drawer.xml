@@ -1,0 +1,11 @@
+<sidebar id="chapterDrawer" position="right" method="float" height="100%" modal="true" width="30%" >
+    <tree-view id="tree" width="100%" height="100%" />
+    <style>
+        #chapterDrawer, #tree
+        {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+    </style>
+</sidebar>

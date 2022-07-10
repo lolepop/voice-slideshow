@@ -1,0 +1,21 @@
+<box styleName="default-background" height="100%" width="100%">
+    <absolute width="100%" height="100%">
+        <image id="img" resource="file://top.png" scaleMode="fitinside" width="100%" height="100%" />
+        <scrollview id="chapterScroller" width="100%" height="100%" autoHideScrolls="true">
+            <vbox id="chapters"/>
+        </scrollview>
+    </absolute>    
+    <style>
+        *
+        {
+            font-size: 1.25rem;
+            font-family: "fonts/NotoSansJP-VF.ttf";
+        }
+
+        #chapterScroller
+        {
+            background-color: transparent;
+            border: none;
+        }
+    </style>
+</box>

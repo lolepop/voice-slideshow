@@ -1,0 +1,35 @@
+<box styleName="default-background" height="100%" width="100%">
+    <vbox width="100%" height="100%">
+        <image id="background" scaleMode="fitinside" width="100%" height="100%" />
+        <vbox width="100%">
+            <box width="100%">
+                <button id="menuBtn" text="menu" />
+                <label id="trackLabel" text="chapter - track" horizontalAlign="center"/>
+                <button id="chapterDisplayBtn" text="chapters" horizontalAlign="right" />
+            </box>
+            <hbox width="100%">
+                <slider id="progressBar" verticalAlign="center" pos="0" min="0" max="100" width="100%" />
+                <label id="progressBarLabel" verticalAlign="center" text="00:00:00/00:00:00" />
+            </hbox>
+            <box width="100%">
+                <button id="autoBtn" text="auto" toggle="true" selected="true" />
+                <hbox horizontalAlign="center">
+                    <button id="prevChapterBtn" text="<<" />
+                    <button id="prevSlideBtn" text="<" />
+                    <button id="playPauseBtn" text="play" />
+                    <button id="nextSlideBtn" text=">" />
+                    <button id="nextChapterBtn" text=">>" />
+                </hbox>
+            </box>
+        </vbox>
+    </vbox>
+
+    <style>
+        *
+        {
+            font-size: 1.25rem;
+            font-family: "fonts/NotoSansJP-VF.ttf";
+        }
+
+    </style>
+</box>
